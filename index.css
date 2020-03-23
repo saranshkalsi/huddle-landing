@@ -3,7 +3,9 @@
   margin: 0px;
 }
 body {
-  overflow:  scroll;
+
+overflow-x: hidden;
+
 }
 .attribution {
   font-size: 11px;
@@ -55,8 +57,10 @@ body {
   height: auto;
 }
 .main {
+  box-sizing: border-box;
   margin-left: 10%;
   margin-right: 10%;
+
 }
 #mockup {
 
@@ -66,4 +70,111 @@ body {
 .huddle-1 {
   display:  flex;
   width: 50%;
+}
+.flex-container-1 {
+  display: flex;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #f7f7f7;
+  margin-top: 5%;
+  padding: 10px;
+
+
+
+
+
+
+}
+.flex-container-2 {
+  display: flex;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #f7f7f7;
+  margin-top: 3%;
+  padding: 10px;
+
+
+}
+.flex-container-3 {
+  display: flex;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #f7f7f7;
+  margin-top: 3%;
+  padding: 10px;
+
+}
+.flex-container-left {
+
+  width: 50%;
+  margin-left: 3%;
+  margin-right: 15%;
+  align-self: center;
+  text-align: left
+
+}
+.flex-container-right {
+
+  width: 50%;
+  align-self: center;
+  margin-left: 15%;
+  margin-right: 5%;
+  align-self: center;
+}
+#sec-label {
+margin-left: 25%;
+
+}
+#images {
+  width: 250px;
+  height: 250px;
+}
+.poster{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+  position: relative;
+  left: 25%;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px #f7f7f7;
+  /* margin-top: 5%; */
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#btn-3 {
+  width: 250px;
+  padding: 15px;
+  border: 2px solid #f7f7f7;
+  border-radius: 25px;
+  border-color: transparent;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0px 0px 10px 5px grey;
+
+}
+.flex-end {
+  width: 100%;
+  height: 300px;
+  background-color:  hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.row-1 {
+  width: 33.33%;
+}
+.row-2 {
+  width: 33.33%;
+
+}
+.row-3 {
+  width: 33.33%;
 }
